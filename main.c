@@ -33,7 +33,7 @@ int main()
     
     // Pmin is Raw min
     
-    printf("welcome to T-Beam Tool by Omar Jawhar 2018\n\n\n");
+    printf("Welcome to T-Beam Tool by Omar Jawhar 2018\n\n\n");
     printf("Steel Grade (fy) is set to Grade 60, which is 4200 Kg/cm squared\n\n");
     printf("First of all, please select your Concrete Strength ( 20-25-28-30-35-40 MPa ) \n");
     
@@ -41,7 +41,7 @@ int main()
     scanf("%d",&concgrade);
     while (concgrade != 20 && concgrade != 25 && concgrade != 28 && concgrade != 30 && concgrade != 35 && concgrade != 40)
     {
-        printf("You are an idiot, please read carefully, only values of 20,25,28,30,35,40 are allowed\n");
+        printf("Please read carefully, only values of 20,25,28,30,35,40 are allowed\n");
         scanf("%d",&concgrade);
     }
     
